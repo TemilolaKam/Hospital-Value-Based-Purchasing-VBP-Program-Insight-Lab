@@ -10,7 +10,7 @@ from the Centers for Medicare & Medicaid Services (CMS).
 * Download URL: <https://data.cms.gov/provider-data/dataset/ypbt-wvdk#data-table>
   
 ### The Purpose
-Forecast · Explain · Simulate — a workspace that turns Centers for Medicare & Medicaid Service’s FY-2025 HVBP dataset into decision-ready insight.
+Hospital VBP Insight Lab is a fully‑reproducible workflow that turns Centers for Medicare & Medicaid Services FY‑2025 Hospital Value‑Based Purchasing file into four things every hospital leader wants:
 
 | Business Need | Analytics Capability |
 |----------|----------|
