@@ -12,6 +12,14 @@ from the Centers for Medicare & Medicaid Services (CMS).
 ### The Purpose
 Forecast · Explain · Simulate — a workspace that turns Centers for Medicare & Medicaid Service’s FY-2025 HVBP dataset into decision-ready insight.
 
+| Business Need | Analytics Capability |
+|----------|----------|
+| Know our score early   | Linear model that exactly reproduces CMS Total Performance Score (TPS) from the four weighted domain columns.  |
+| See the big picture   | Exploratory notebooks with distributions, a state‑level choropleth, and an outlier table that spotlights the 46 top performers.  |
+| Understand what drives success   | XGBoost classifier + SHAP plots showing Efficiency as the dominant lever, followed by Safety when present.   |
+| Simulation   | A single simulate() helper (plus optional ipywidget sliders) that returns TPS, top‑quartile probability, and a SHAP waterfall explanation—live inside Jupyter.   |
+
+
 ### ✨ Key features
 
 Clean data pipeline — raw CMS CSV ➜ validated, typed parquet.
